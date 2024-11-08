@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+div {
+  border: thick double #5cef77ae;
+  box-sizing: border-box;
+
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.box1, .box2, .box3, .box4  {
+  float: left;
+  border-color: #5cef77ae;
+  width: 50%;
+}
+
+.box5, .box6, .box7 {
+  float: left;
+  border-color: #5cef77ae;
+  width: 33.3333%;
+}
+
+.box8, .box9, .box10, .box11 {
+  float: left;
+  border-color: #5cef77ae;
+  width: 25%;
+  font-size: 40px;
+}
+
+.boxA {
+  border: none;
+  &:after {
+    content: ""; 
+    display: block;
+    clear: both;
+  }
+}
